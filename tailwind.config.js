@@ -13,6 +13,12 @@ module.exports = {
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
     },
+    fontFamily: {
+      DmSans: ["DM Sans", "sans"],
+      DmMono: ["DM Mono", "sans"],
+
+      // Add your custom font here
+    },
   },
   plugins: [],
 };
