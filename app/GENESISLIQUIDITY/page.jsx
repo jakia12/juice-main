@@ -15,7 +15,7 @@ const GENESISLIQUIDITY = () => {
         </p>
         <p className="text-[11px] 2xl:text-xl text-[#fff]">CA: NAN</p>
       </div>
-      <div className="flex flex-col lg:flex-row items-center lg:items-start justify-normal 2xl:justify-between gap-16 text-white mt-12 mb-28">
+      <div className="flex flex-col lg:flex-row items-center lg:items-start justify-normal 2xl:justify-between gap-16 text-white mt-10 mb-28">
         <div className="w-full 2xl:w-[67%]">
           <div className="lg:h-[600px]  h-[500px] 2xl:h-[800px] overflow-hidden  flex items-center justify-center chart bg-[url('/images/gl.png')] bg-no-repeat bg-cover bg-center">
             <div className="tradingview-widget-container ">
