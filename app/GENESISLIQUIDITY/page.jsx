@@ -64,7 +64,7 @@ const GENESISLIQUIDITY = () => {
             </label>
             <br />
             <input
-              className="w-[35%] bg-transparent h-[2.6rem]  border rounded-[6px] pl-2 pr-16 text-base 2xl:text-2xl mt-[11px]"
+              className="w-[35%] bg-transparent h-[2.5rem]  border rounded-[6px] pl-2 pr-16 text-base 2xl:text-2xl mt-[11px]"
               type="text"
               name=""
               id=""
@@ -78,18 +78,19 @@ const GENESISLIQUIDITY = () => {
             </label>
             <br />
             <input
-              className="w-[35%] bg-transparent h-[2.6rem]  border rounded-[6px] pl-2 pr-16 text-base 2xl:text-2xl mt-[11px]"
+              className="w-[35%] bg-transparent h-[2.5rem]  border rounded-[6px] pl-2 pr-16 text-base 2xl:text-2xl mt-[11px]"
               type="text"
               name=""
               id=""
               defaultValue={""}
             />
           </div>
-          <h3 className="text-white text-[15px] font-[400] mt-[11px]">
+          <h3 className="text-white text-[15px] font-[400] mt-[25px]">
             In exchange for your assets,{" "}
             <span className="text-[#FF1DE8]">you’ll earn $SPX</span> at a rate
             of 240,411% for the next 3 hours. The maximum each participant can
             farm is 2% of supply
+            <br />
             <br />
             <span className="text-white text-[13px] font-[400] mt-[11px]">
               Juice takes 1% of genesis pool contributions to help keep the
