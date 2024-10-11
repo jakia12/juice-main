@@ -3,7 +3,7 @@ import Link from "next/link";
 const GENESISLIQUIDITY = () => {
   return (
     <>
-      <div className="flex items-end flex-wrap gap-10 mt-[60px] mb-[7px]">
+      <div className="flex items-end flex-wrap gap-10 mt-[60px] ">
         <h5 className="text-[46px] leading-none text-[#fff]">
           SPXDAO
           <span className="text-[#fff] text-xl translate-x-[10px] -translate-y-[24px] inline-block ">
