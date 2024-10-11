@@ -12,10 +12,10 @@ const GENESISPOOL = () => {
             </h3>
           </div>
           <div className="mt-[17px]">
-            <h3 className="text-white text-[14px] font-[400] mt-[11px] font-DmSans">
+            <h3 className="text-white text-[14px] font-[400] mt-[11px] dmsans">
               Total Value Contributed
             </h3>
-            <h3 className="text-white text-[14px] font-[400] mt-[0px] font-DmSans">
+            <h3 className="text-white text-[14px] font-[400] mt-[0px] dmsans">
               <span className="text-white text-[26px] font-[700] ">
                 {" "}
                 11.56 ETH
@@ -24,11 +24,11 @@ const GENESISPOOL = () => {
             </h3>
           </div>
           <div className="mt-[17px]">
-            <h3 className="text-white text-[14px] font-[400] mt-[11px] font-DmSans">
+            <h3 className="text-white text-[14px] font-[400] mt-[11px] dmsans">
               {" "}
               Your $SPX Earned
             </h3>
-            <h3 className="text-white text-[14px] font-[400] mt-[0px] font-DmSans">
+            <h3 className="text-white text-[14px] font-[400] mt-[0px] dmsans">
               <span className="text-white text-[26px] font-[700]">
                 {" "}
                 12,589 SPX
@@ -36,11 +36,11 @@ const GENESISPOOL = () => {
             </h3>
           </div>
           <div className="mt-[17px]">
-            <h3 className="text-white text-[14px] font-[400] mt-[11px] font-DmSans">
+            <h3 className="text-white text-[14px] font-[400] mt-[11px] dmsans">
               {" "}
               Your Value Contributed
             </h3>
-            <h3 className="text-white text-[14px] font-[400] mt-[0px] font-DmSans">
+            <h3 className="text-white text-[14px] font-[400] mt-[0px] dmsans">
               <span className="text-white text-[26px] font-[700] ">1 ETH </span>{" "}
               ($2,381.52)
             </h3>
@@ -54,7 +54,7 @@ const GENESISPOOL = () => {
             </p>
           </div>
 
-          <h3 className="text-white text-[15px] font-[400] mt-[11px] font-DmSans">
+          <h3 className="text-white text-[15px] font-[400] mt-[11px] ">
             When this token’s premarket phase is finished,{" "}
             <span className="text-[#FF1DE8]">
               you can withdraw your earned tokens
