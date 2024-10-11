@@ -73,7 +73,7 @@ const GENESISPOOL = () => {
               href={"/"}
               className="text-center text-white text-[20px] font-[700]"
             >
-              [ claim tokens]
+              [ claim tokens ]
             </Link>
           </div>
         </div>

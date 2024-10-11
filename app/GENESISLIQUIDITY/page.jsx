@@ -87,7 +87,7 @@ const GENESISLIQUIDITY = () => {
                 defaultValue={""}
               />
             </div>
-            <h3 className="text-white text-[15px] font-[400] mt-[25px]">
+            <h3 className="text-white text-[15px] font-[400] mt-[27px]">
               In exchange for your assets,{" "}
               <span className="text-[#FF1DE8]">you’ll earn $SPX</span> at a rate
               of 240,411% for the next 3 hours. The maximum each participant can
@@ -105,7 +105,7 @@ const GENESISLIQUIDITY = () => {
                 href={"/"}
                 className="text-center text-white text-[20px] font-[700]"
               >
-                [ contribute]
+                [ contribute ]
               </Link>
             </div>
           </div>
