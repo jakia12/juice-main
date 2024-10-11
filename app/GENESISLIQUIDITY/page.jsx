@@ -4,7 +4,7 @@ const GENESISLIQUIDITY = () => {
   return (
     <>
       <div className="flex items-end flex-wrap gap-10 mt-[60px] ">
-        <h5 className="text-[46px] leading-none text-[#fff] font-DmMono">
+        <h5 className="text-[46px] leading-none text-[#fff] dmMono">
           SPXDAO
           <span className="text-[#fff] text-xl translate-x-[10px] -translate-y-[24px] inline-block ">
             (SPX)
@@ -51,10 +51,10 @@ const GENESISLIQUIDITY = () => {
               <img src="/images/star2.png" className="w-[15px]" alt="" />
               <h3 className="text-[13px] text-[#fff]">Genesis Liquidity</h3>
             </div>
-            <h3 className="text-white text-[15px] font-[400] mt-[11px] font-DmSans">
+            <h3 className="text-white text-[15px] font-[400] mt-[11px] dmsans">
               SPXDAO <span className="text-[#FF1DE8]">is launching $SPX</span>
             </h3>
-            <h3 className="text-white text-[15px] font-[400] mt-[11px] font-DmSans">
+            <h3 className="text-white text-[15px] font-[400] mt-[11px] dmsans">
               <span className="text-[#03F0FF]">Farm $SPX tokens early</span> by
               committing ETH or other assets to their treasury pre-market. These
               assets back the value of their new coin.
@@ -87,7 +87,7 @@ const GENESISLIQUIDITY = () => {
                 defaultValue={""}
               />
             </div>
-            <h3 className="text-white text-[15px] font-[400] mt-[27px] font-DmSans">
+            <h3 className="text-white text-[15px] font-[400] mt-[27px] dmsans">
               In exchange for your assets,{" "}
               <span className="text-[#FF1DE8]">you’ll earn $SPX</span> at a rate
               of 240,411% for the next 3 hours. The maximum each participant can
