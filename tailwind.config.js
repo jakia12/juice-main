@@ -14,8 +14,9 @@ module.exports = {
       },
     },
     fontFamily: {
-      DmSans: ["DM Sans", "sans"],
-      DmMono: ["DM Mono", "sans"],
+      DmSans: ["dmSans", "sans"],
+      DmMono: ["dmMonoMed", "sans"],
+      DmMono: ["dmMonoReg", "sans"],
 
       // Add your custom font here
     },

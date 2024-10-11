@@ -3,9 +3,30 @@
 @tailwind utilities;
 
 /* connect custom font*/
-@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
 
-@import url("https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap"); */
+
+@font-face {
+  font-family: "dmSans";
+  src: url("/fonts/dmsans.ttf") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "dmMonoMed";
+  src: url("/fonts/DMMono-Medium.ttf") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "dmMonoReg";
+  src: url("/fonts/DMMono-Regular.ttf") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
 
 body {
   background-color: #0b0b12;
