@@ -48,23 +48,23 @@ const GENESISLIQUIDITY = () => {
         <div className="w-full md:w-[496px] 2xl:w-[32%]">
           <div className="border p-3 2xl:p-8 rounded-[6px] bg-[#0D0E17]">
             <div className="flex items-center gap-2 ">
-              <img src="/images/star2.png" className="w-[16px]" alt="" />
+              <img src="/images/star2.png" className="w-[15px]" alt="" />
               <p className="text-[13px] text-[#fff]">Genesis Liquidity</p>
             </div>
-            <h3 className="text-white text-[16px]  mt-[11px] dmsans">
+            <h3 className="text-white text-[15px]  mt-[11px] dmsans">
               SPXDAO{" "}
               <span className="text-[#FF1DE8]">
                 is launching <b>$SPX!</b>
               </span>
             </h3>
-            <h3 className="text-white text-[16px]  mt-[11px] dmsans">
+            <h3 className="text-white text-[15px]  mt-[11px] dmsans">
               <span className="text-[#03F0FF]">Farm $SPX tokens early</span> by
               committing ETH or other assets to their treasury pre-market. These
               assets back the value of their new coin.
             </h3>
 
             <div className="relative mt-[11px] mb-[33px]">
-              <label htmlFor="" className="text-white text-[16px] ">
+              <label htmlFor="" className="text-white text-[15px] ">
                 How much ETH would you like to contribute?
               </label>
               <br />
@@ -77,7 +77,7 @@ const GENESISLIQUIDITY = () => {
               />
             </div>
             <div className="relative mt-[11px]">
-              <label htmlFor="" className="text-white text-[16px] ">
+              <label htmlFor="" className="text-white text-[15px] ">
                 {" "}
                 How much DAI would you like to contribute?
               </label>
@@ -90,7 +90,7 @@ const GENESISLIQUIDITY = () => {
                 defaultValue={""}
               />
             </div>
-            <h3 className="text-white text-[16px]  mt-[27px] dmsans">
+            <h3 className="text-white text-[15px]  mt-[27px] dmsans">
               In exchange for your assets,{" "}
               <span className="text-[#FF1DE8]">
                 you’ll earn <b>$SPX</b>

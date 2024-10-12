@@ -6,17 +6,17 @@ const GENESISPOOL = () => {
       <div className="w-full md:w-[470px] 2xl:w-[24%]">
         <div className="border p-3 2xl:p-8 rounded-[6px] bg-[#0D0E17]">
           <div className="flex items-center gap-2 ">
-            <img src="/images/star2.png" className="w-[16px]" alt="" />
+            <img src="/images/star2.png" className="w-[15px]" alt="" />
             <h3 className="text-[13px] text-[#fff]">
               Genesis Pool{" "}
               <span className="text-[#03F0FF] font-bold text-[13px]">$SPX</span>
             </h3>
           </div>
           <div className="mt-[17px]">
-            <h3 className="text-white text-[16px]  mt-[11px] dmsans">
+            <h3 className="text-white text-[15px]  mt-[11px] dmsans">
               Total Value Contributed
             </h3>
-            <h3 className="text-white text-[16px]  mt-[0px] dmsans">
+            <h3 className="text-white text-[15px]  mt-[0px] dmsans">
               <span className="text-white text-[26px] font-[700] ">
                 {" "}
                 11.56 ETH
@@ -25,11 +25,11 @@ const GENESISPOOL = () => {
             </h3>
           </div>
           <div className="mt-[17px]">
-            <h3 className="text-white text-[16px]  mt-[11px] dmsans">
+            <h3 className="text-white text-[15px]  mt-[11px] dmsans">
               {" "}
               Your $SPX Earned
             </h3>
-            <h3 className="text-white text-[16px]  mt-[0px] dmsans">
+            <h3 className="text-white text-[15px]  mt-[0px] dmsans">
               <span className="text-white text-[26px] font-[700]">
                 {" "}
                 12,589 SPX
@@ -37,11 +37,11 @@ const GENESISPOOL = () => {
             </h3>
           </div>
           <div className="mt-[17px]">
-            <h3 className="text-white text-[16px]  mt-[11px] dmsans">
+            <h3 className="text-white text-[15px]  mt-[11px] dmsans">
               {" "}
               Your Value Contributed
             </h3>
-            <h3 className="text-white text-[16px]  mt-[0px] dmsans">
+            <h3 className="text-white text-[15px]  mt-[0px] dmsans">
               <span className="text-white text-[26px] font-[700] ">1 ETH </span>{" "}
               ($2,381.52)
             </h3>
@@ -49,13 +49,13 @@ const GENESISPOOL = () => {
 
           <div className="flex items-center gap-5 my-[23px]">
             <img src="/images/image1.png" alt="" className="w-[65px]" />
-            <p className="text-white text-[16px]">
+            <p className="text-white text-[15px]">
               Welcome to the S&P6900, an advanced blockchain cryptography token
               with limitless possibilities and scientific utilization.
             </p>
           </div>
 
-          <h3 className="text-white text-[16px]  mt-[11px] ">
+          <h3 className="text-white text-[15px]  mt-[11px] ">
             When this token’s premarket phase is finished,{" "}
             <span className="text-[#FF1DE8]">
               you can withdraw your earned tokens
