@@ -9,7 +9,7 @@ const inter = Anonymous_Pro({ weight: ["400", "700"], subsets: ["latin"] });
 // Configure DM Sans
 const dmSans = DM_Sans({
   subsets: ["latin"],
-  weight: ["400", "500", "700"], // Define the font weights you want
+  weight: ["400"], // Define the font weights you want
   display: "swap",
 });
 
