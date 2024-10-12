@@ -8,7 +8,8 @@ const GENESISPOOL = () => {
           <div className="flex items-center gap-2 ">
             <img src="/images/star2.png" className="w-[16px]" alt="" />
             <h3 className="text-[13px] text-[#fff]">
-              Genesis Pool <span className="text-[#03F0FF]">$SPX</span>
+              Genesis Pool{" "}
+              <span className="text-[#03F0FF] font-bold text-[13px]">$SPX</span>
             </h3>
           </div>
           <div className="mt-[17px]">

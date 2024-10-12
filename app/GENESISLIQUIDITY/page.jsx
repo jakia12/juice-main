@@ -51,14 +51,17 @@ const GENESISLIQUIDITY = () => {
               <img src="/images/star2.png" className="w-[16px]" alt="" />
               <p className="text-[13px] text-[#fff]">Genesis Liquidity</p>
             </div>
-            <p className="text-white text-[16px]  mt-[11px] dmsans">
-              SPXDAO <span className="text-[#FF1DE8]">is launching $SPX</span>
-            </p>
-            <p className="text-white text-[16px]  mt-[11px] dmsans">
+            <h3 className="text-white text-[16px]  mt-[11px] dmsans">
+              SPXDAO{" "}
+              <span className="text-[#FF1DE8]">
+                is launching <b>$SPX!</b>
+              </span>
+            </h3>
+            <h3 className="text-white text-[16px]  mt-[11px] dmsans">
               <span className="text-[#03F0FF]">Farm $SPX tokens early</span> by
               committing ETH or other assets to their treasury pre-market. These
               assets back the value of their new coin.
-            </p>
+            </h3>
 
             <div className="relative mt-[11px] mb-[33px]">
               <label htmlFor="" className="text-white text-[16px] ">
@@ -87,18 +90,20 @@ const GENESISLIQUIDITY = () => {
                 defaultValue={""}
               />
             </div>
-            <p className="text-white text-[16px]  mt-[27px] dmsans">
+            <h3 className="text-white text-[16px]  mt-[27px] dmsans">
               In exchange for your assets,{" "}
-              <span className="text-[#FF1DE8]">you’ll earn $SPX</span> at a rate
-              of 240,411% for the next 3 hours. The maximum each participant can
-              farm is 2% of supply
+              <span className="text-[#FF1DE8]">
+                you’ll earn <b>$SPX</b>
+              </span>{" "}
+              at a rate of 240,411% for the next 3 hours. The maximum each
+              participant can farm is 2% of supply
               <br />
               <br />
               <span className="text-white text-[13px]  mt-[11px]">
                 Juice takes 1% of genesis pool contributions to help keep the
                 lights on.
               </span>
-            </p>
+            </h3>
 
             <div className="text-center mt-[30px]">
               <Link
