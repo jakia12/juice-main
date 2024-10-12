@@ -1,15 +1,19 @@
-import React from "react";
-
 const Vault = () => {
   return (
     <div className="text-white my-10 md:my-16">
       <div className="border bg-[#0000007e] rounded-[6px] w-full md:w-[479px] 2xl:w-[800px] mx-auto px-4 2xl:px-6 py-3 2xl:py-5">
         <div className="flex items-center gap-[6px]">
-          <img className="w-[14px] 2xl:w-[20px]" src="/images/Star.png" alt="" />
+          <img
+            className="w-[14px] 2xl:w-[20px]"
+            src="/images/Star.png"
+            alt=""
+          />
           <p className="text-xs 2xl:text-xl text-[#03F0FF]">Vault</p>
         </div>
 
-        <p className="my-3 text-[13px] 2xl:text-xl">Edit your vault parameters here.</p>
+        <p className="my-3 text-[13px] 2xl:text-xl">
+          Edit your vault parameters here.
+        </p>
 
         <div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-y-3 2xl:gap-y-6 gap-x-10 mb-9">

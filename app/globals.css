@@ -51,7 +51,9 @@ body {
 }
 
 .dmsans {
-  font-family: var(--font-dm-sans); /* DM Sans for h1 */
+  font-family: "DM Sans", sans-serif;
+  font-weight: 300 !important;
+  letter-spacing: 1px;
 }
 
 .dmMono {

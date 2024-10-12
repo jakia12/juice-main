@@ -33,7 +33,10 @@ const STAKE = () => {
       <div className="w-full 2xl:w-[67%]">
         <div className="flex items-end flex-wrap gap-10">
           <h5 className="text-[46px] leading-none">
-             SPXDAO<span className="text-xl translate-x-[10px] -translate-y-[24px] inline-block ">(SPX)</span>
+            SPXDAO
+            <span className="text-xl translate-x-[10px] -translate-y-[24px] inline-block ">
+              (SPX)
+            </span>
           </h5>
           <p className="text-[11px] 2xl:text-xl">Market cap: $20,069,780</p>
           <p className="text-[11px] 2xl:text-xl">
@@ -59,7 +62,7 @@ const STAKE = () => {
           </div>
           <div className="text-lg md:text-[32px] leading-5 md:leading-9">
             <p className="text-[#949494]">current index</p>
-            <p>9,206 CD</p>
+            <p>9,206 SPX</p>
           </div>
           <div className="text-lg md:text-[32px] leading-5 md:leading-9">
             <p className="text-[#949494]">bond wait time</p>
@@ -75,13 +78,13 @@ const STAKE = () => {
 
         <div className="border p-3 2xl:p-8 rounded-[6px] bg-[#0D0E17]">
           <p className="text-[10px] 2xl:text-xl text-center mb-5">
-            You can buy CD bonds with ETHER that reach maturity in 5 days.{" "}
+            You can buy SPX bonds with ETHER that reach maturity in 5 days.{" "}
             <br />
             To learn more, read our docs.
           </p>
 
           <p className="flex items-center gap-1 justify-center mb-2 text-xl 2xl:text-2xl">
-            CD <img className="w-[21px]" src="/images/image.png" alt="" />
+            SPX <img className="w-[21px]" src="/images/image.png" alt="" />
           </p>
 
           <div className="flex justify-center gap-20 text-center mb-4 text-base 2xl:text-xl">
@@ -120,7 +123,7 @@ const STAKE = () => {
           </div>
 
           <p className="text-[10px] 2xl:text-base mt-2 mb-9">
-            You will receive ~25 ETH worth of locked CD
+            You will receive ~25 ETH worth of locked SPX
           </p>
 
           <button className="w-[90%] flex justify-center mx-auto mb-5 h-10 2xl:h-16 bg-[#999999] relative rounded ">
@@ -130,18 +133,18 @@ const STAKE = () => {
           </button>
           <div className="text-base 2xl:text-xl">
             <p className="flex justify-between">
-              Your bonded tokens <span>5,325,623 CD</span>
+              Your bonded tokens <span>5,325,623 SPX</span>
             </p>
             <p className="flex justify-between">
-              Next reward amount <span>220,503 CD</span>
+              Next reward amount <span>220,503 SPX</span>
             </p>
           </div>
         </div>
 
         <div className="text-base 2xl:text-2xl font-bold flex gap-1 mt-2 2xl:mt-4">
-          <p className="text-[#818181]">[ bond CD ]</p>
-          <Link href="/STAKE">[ stake CD ]</Link>
-          <Link href="/DAO">[ trade CD ]</Link>
+          <p className="text-[#818181]">[ bond SPX ]</p>
+          <Link href="/STAKE">[ stake SPX ]</Link>
+          <Link href="/DAO">[ trade SPX ]</Link>
         </div>
 
         <div className="flex items-center gap-5 mt-12">
@@ -149,7 +152,8 @@ const STAKE = () => {
           <div className="text-sm 2xl:text-2xl">
             <p className="mb-2">about</p>
             <p>
-              Welcome to the S&P6900, an advanced blockchain cryptography token with limitless possibilities and scientific utilization
+              Welcome to the S&P6900, an advanced blockchain cryptography token
+              with limitless possibilities and scientific utilization
             </p>
           </div>
         </div>
