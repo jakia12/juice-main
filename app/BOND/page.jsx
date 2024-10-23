@@ -1,9 +1,11 @@
 "use client";
 import Link from "next/link";
-import { useEffect, useRef } from "react";
+import { useEffect, useRef, useState } from "react";
 
 const STAKE = () => {
   const container = useRef();
+
+  const [isMatured, setIsMatured] = useState(false);
 
   useEffect(() => {
     const script = document.createElement("script");
@@ -73,7 +75,11 @@ const STAKE = () => {
       <div className="w-full md:w-[496px] 2xl:w-[32%]">
         <div className="flex items-end justify-between text-sm 2xl:text-xl mt-7 2xl:mt-5 mb-1">
           <p>bond</p>
-          <p>next rebase in 3h 29m</p>
+          <Link href="/REBASE">
+            <p>
+              click here to <b>rebase</b>
+            </p>
+          </Link>
         </div>
 
         <div className="border p-3 2xl:p-8 rounded-[6px] bg-[#0D0E17]">
@@ -99,7 +105,7 @@ const STAKE = () => {
           </div>
 
           <p className="text-center mb-7 text-base 2xl:text-xl">
-            Current premium: 4%
+            Current discount: 4%
           </p>
 
           <div className="relative">
@@ -108,7 +114,7 @@ const STAKE = () => {
               type="text"
               name=""
               id=""
-              defaultValue={"1,000,000"}
+              defaultValue={"25.4"}
             />
             <button className="flex items-center gap-1 absolute top-0 bottom-0 my-auto right-2 text-base 2xl:text-xl">
               Eth
@@ -136,8 +142,29 @@ const STAKE = () => {
               Your bonded tokens <span>5,325,623 SPX</span>
             </p>
             <p className="flex justify-between">
-              Next reward amount <span>220,503 SPX</span>
+              Time until payout <span>2d 6h</span>
             </p>
+          </div>
+          <div className="text-center my-[40px]">
+            <p className="text-[11px] text-white">
+              Claim your bond tokens <b>here, at the end of the bond term</b>
+            </p>
+            <button
+              disabled={!isMatured}
+              className={`w-[197PX] flex justify-center mx-auto mb-5 h-10 2xl:h-16  relative rounded mt-[20px] ${
+                isMatured ? "bg-[#999999]" : "bg-[#484848]"
+              }`}
+            >
+              <span
+                className={` absolute top-0 right-0 left-0 h-8 2xl:h-12 flex items-center justify-center rounded  text-lg 2xl:text-2xl text-[700] ${
+                  isMatured
+                    ? "bg-[#ffffff] text-[#000000]"
+                    : "bg-[#666666] text-[#909090] "
+                }`}
+              >
+                REDEEM BONDS
+              </span>
+            </button>
           </div>
         </div>
 
