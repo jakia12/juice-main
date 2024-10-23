@@ -151,7 +151,7 @@ const STAKE = () => {
             </p>
             <button
               disabled={!isMatured}
-              className={`w-[197PX] flex justify-center mx-auto mb-5 h-10 2xl:h-16  relative rounded mt-[20px] ${
+              className={`w-[210PX] flex justify-center mx-auto mb-5 h-10 2xl:h-16  relative rounded mt-[20px] ${
                 isMatured ? "bg-[#999999]" : "bg-[#484848]"
               }`}
             >
