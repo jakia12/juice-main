@@ -6,6 +6,8 @@ const STAKE = () => {
   const container = useRef();
   const [stakeStatus, setStakeStatus] = useState(true);
 
+  const [isMatured, setIsMatured] = useState(false);
+
   useEffect(() => {
     const script = document.createElement("script");
     script.src =
@@ -154,6 +156,27 @@ const STAKE = () => {
             <p className="flex justify-between">
               ROI (5 day) <span>105%</span>
             </p>
+          </div>
+          <div className="text-center my-[40px]">
+            <p className="text-[12px] text-white">
+              Claim your staking rewards <b>here, at anytime </b>
+            </p>
+            <button
+              disabled={!isMatured}
+              className={`w-[210PX] flex justify-center mx-auto mb-5 h-10 2xl:h-16  relative rounded mt-[20px] ${
+                isMatured ? "bg-[#999999]" : "bg-[#484848]"
+              }`}
+            >
+              <span
+                className={` absolute top-0 right-0 left-0 h-8 2xl:h-12 flex items-center justify-center rounded  text-lg 2xl:text-2xl text-[700] ${
+                  isMatured
+                    ? "bg-[#ffffff] text-[#000000]"
+                    : "bg-[#666666] text-[#909090] "
+                }`}
+              >
+                CLAIM
+              </span>
+            </button>
           </div>
         </div>
 

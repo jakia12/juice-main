@@ -146,7 +146,7 @@ const STAKE = () => {
             </p>
           </div>
           <div className="text-center my-[40px]">
-            <p className="text-[11px] text-white">
+            <p className="text-[12px] text-white">
               Claim your bond tokens <b>here, at the end of the bond term</b>
             </p>
             <button
